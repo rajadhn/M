@@ -1,0 +1,131 @@
+Media Query.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        header {
+            background-color: #f2f2f2;
+            padding: 20px;
+            text-align: center;
+        }
+        @media screen and (max-width: 600px) {
+            header {
+                background-color: blue;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Responsive Header</h1>
+    </header>
+    <main>
+        <p>Main Content</p>
+    </main>
+    <footer>
+        <p>footer</p>
+    </footer>
+</body>
+</html>
+
+
+
+<br><br>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .image-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .image-gallery img {
+        width: 30%;
+        margin: 10px;
+    }
+    @media screen and (max-width:800px) {
+        .image-gallery img {
+            width: 45%;
+        }
+    }
+    @media screen and (max-width:500px)
+    .image-gallery img {
+        width: 100px;
+    }
+</style>
+<body>
+    <div class="image-gallery">
+        <img src="https://picsum.photos/200/300" alt="Image 1"/>
+         <img src="https://picsum.photos/200/300" alt="Image 2"/>
+         <img src="https://picsum.photos/200/300" alt="Image 3">
+        </div>
+</body>
+</html>
+
+
+
+
+
+
+<br><br>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+        background-color: black;
+    }
+    .navbar a {
+        text-decoration: none;
+        padding: 10px;
+        color: white;
+    }
+    @media screen and  (max-width: 768px) {
+        .navbar {
+            flex-direction: column;
+            align-items: center;
+            background-color: gray;
+        }
+    }
+    </style>
+<body>
+    <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">portfolio</a>
+        <a href="#">Contact</a>
+        </nav>
+</body>
+</html>
+
+<br><br>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <a href="file:///C:/Users/dell/Desktop/Responsive%20Grid%20layout%20example.html"><h1>Responsive Grid layout Example</h1> </a> <br>
+   <a href="file:///C:/Users/dell/Desktop/Responsive%20Flex%20Layout%20Example.html"><h1>Responsive Flex  layout Example</h1></a>
+</body>
+</html>
